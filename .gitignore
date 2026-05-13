@@ -1,0 +1,19 @@
+# Elixir build artifacts
+/_build/
+/deps/
+/.elixir_ls/
+/.mix/
+/*.ez
+
+# Runtime artifacts
+/.mnesia/
+/tmp/
+/cover/
+
+# Logs and dumps
+*.log
+erl_crash.dump
+
+# Bench and load test outputs
+/bench/results/
+/loadtest/results/

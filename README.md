@@ -1,1 +1,3 @@
+# KeyImg
 
+KeyImg is a distributed image storage system that provides HTTP endpoints for image upload, resumable upload, and retrieval with content-hash deduplication, local-disk persistence, and cross-node read fallback; built on Elixir/OTP with a Phoenix API layer, libcluster for node discovery, Horde for distributed process coordination, ETS-backed metadata/cache, consistent-hash replica placement, and CRDT-style counters for cluster-aware rate limiting.
